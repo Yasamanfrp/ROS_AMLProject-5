@@ -9,7 +9,7 @@ from center_loss import CenterLoss
 ```python
 
 3. merge optimizers of model and center loss
-```
+```python
 
 
 
