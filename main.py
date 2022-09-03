@@ -43,12 +43,12 @@ def get_args():
 
     parser.add_argument("--train_all", type=bool, default=True, help="If true, all network weights will be trained")
 
-    """hyperparameters needed to optimize them"""
+    """parameters needed to tune them"""
     parser.add_argument("--weight_RotTask_step1", type=float, default=0.5, help="Weight for the rotation loss in step1")
     parser.add_argument("--weight_RotTask_step2", type=float, default=0.5, help="Weight for the rotation loss in step2")
     parser.add_argument("--threshold", type=float, default=0.5, help="Threshold for the known/unkown separation")
      ######added by centerloss####
-    parser.add_argument("--weight_Center_Loss", type=float, default=0.5, help="Weight for the Center Loss in step1") # default 0.5
+    parser.add_argument("--weight_Center_Loss", type=float, default=0.1, help="Weight for the Center Loss in step1") # default 0.1
     # tensorboard logger
     parser.add_argument("--tf_logger", type=bool, default=True, help="If true will save tensorboard compatible logs")
     parser.add_argument("--folder_name", default=None, help="Used by the logger to save logs")
