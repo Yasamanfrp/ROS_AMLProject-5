@@ -7,6 +7,7 @@ from center_loss import CenterLoss
 ```
 2. Initialize center loss in the main function
 ```python
-
-3. Initialize center loss in the main function
+2. Initialize center loss in the main function
 ```python
+
+
