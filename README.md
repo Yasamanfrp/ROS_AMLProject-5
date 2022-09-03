@@ -5,7 +5,6 @@
 
 The project is a simplified version Open-Set Domain Adaptation through Self-Supervision.
 
-## Getting Started
 
 ### Prerequisites
 
