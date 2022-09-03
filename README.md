@@ -1,30 +1,5 @@
 # ROS_AMLProject-5
 
-<div align="center">
-  Simplified ROS (Rotation Based Open Set)
-  <br />
-  <a href="#about"><strong>Explore the docs »</strong></a>
-  <br />
- </div>
-
-<div align="center">
-<br />
-  
-[![Project license](https://img.shields.io/github/license/DarthReca/AML-Project)](LICENSE)
-</div>
-
-<details open="open">
-<summary>Table of Contents</summary>
-
-- [About](#about)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-- [Usage](#usage)
-- [Authors & contributors](#authors--contributors)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
-
-</details>
 
 ## About
 
