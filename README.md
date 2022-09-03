@@ -6,7 +6,7 @@ Pytorch implementation of center loss: Wen et al. A Discriminative Feature Learn
 from center_loss import CenterLoss
 ```
 2. Initialize center loss in the main function
-```python
+```
 2. Initialize center loss in the main function
 
 
