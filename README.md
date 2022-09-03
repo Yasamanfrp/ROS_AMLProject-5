@@ -7,6 +7,7 @@ from center_loss import CenterLoss
 ```
 2. Initialize center loss in the main function
 3. merge optimizers of model and center loss
+4.Update class centers
 
 
 
