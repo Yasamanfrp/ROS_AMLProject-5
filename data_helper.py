@@ -1,7 +1,6 @@
 
 import torch
 from torchvision import transforms
-import torch.utils.data as data
 from dataset import Dataset, TestDataset, _dataset_info
 
 
@@ -27,11 +26,11 @@ def get_val_dataloader(args,txt_file):
 
 
 def get_train_transformers(args):
-'transformations that we apply to our data during training'
-#first transformation==> random crop of the images based on a defined size and defined scale
+"transformations that we apply to our data during training"
+"first transformation==> random crop of the images based on a defined size and defined scale"
     img_tr = [transforms.RandomResizedCrop((int(args.image_size), int(args.image_size)), (args.min_scale, args.max_scale))]
 
-#Randomly change the brightness, contrast, saturation and hue of an image =deinition of color jitter
+"Randomly change the brightness, contrast, saturation and hue of an image =deinition of color jitter"
     if args.jitter > 0.0:
         img_tr.append(transforms.ColorJitter(brightness=args.jitter, contrast=args.jitter, saturation=args.jitter, hue=min(0.5, args.jitter)))
     if args.random_grayscale:

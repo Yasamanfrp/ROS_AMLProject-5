@@ -3,7 +3,7 @@ from torch import nn
 from torch.utils import model_zoo
 from torchvision.models.resnet import BasicBlock, model_urls, Bottleneck
 
-'ResNet-18 is a convolutional neural network that is 18 layers deep'
+#'ResNet-18 is a convolutional neural network that is 18 layers deep'
 class ResNet(nn.Module):
     def __init__(self, block, layers):
         self.inplanes = 64
@@ -73,10 +73,10 @@ class Classifier(nn.Module):
 
 
 def resnet18_feat_extractor():
-    """Constructs a ResNet-18 model.
-    Args:
-        pretrained (bool): If True, returns a model pre-trained on ImageNet
-    """
+    # """Constructs a ResNet-18 model.
+    # Args:
+    #     pretrained (bool): If True, returns a model pre-trained on ImageNet
+    # """
     model = ResNet(BasicBlock, [2, 2, 2, 2])
     model.load_state_dict(model_zoo.load_url(model_urls['resnet18']), strict=False)
 
