@@ -10,14 +10,3 @@ from center_loss import CenterLoss
 
 3. Initialize center loss in the main function
 ```python
-
-
-
-
-
-
-1-use the center_loss.py file
-2-from center_loss import CenterLoss
-3-Initialize center loss in the main function
-4-merge optimizers of model and center loss
-5-Update class centers
